@@ -1,0 +1,89 @@
+
+.main-index{
+    padding-top:117px;
+}
+
+.main-index>.fondo>.container{
+    background: url(../Imagenes/banner.jpg);
+    height:811px;
+    background-size: 100% 811px;
+}
+.descripcion{
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.descripcion>p{
+    font-size:25px;
+    font-family: 'Special Elite', cursive;
+}
+.descripcion>img{
+    height:600px;
+    width: 300px;
+    border-radius: 30%;
+    margin: 80px 0 0 0;
+}
+.sobre_mi>h2,.proyectos_tres>h2{
+    font-family: 'Kaushan Script', cursive;
+}
+.sobre_mi>.descrip_mi{
+    font-family: 'Special Elite', cursive;
+}
+
+@media screen and (min-width: 992px){
+    .caja>.celular>.navbar-nav>.nav-item>a{
+        font-size:25px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .main-index>.fondo>.container{
+        height:725px;
+        background-size: 100% 725px;
+    }
+    .descripcion>p{
+        font-size:20px;
+        width: 40%;
+    }
+    .descripcion>img{
+        height:400px;
+        width: 200px;
+        border-radius: 30%;
+        margin: 200px 0 0 0;
+    }
+    .sobre_mi>.descrip_mi{
+        font-size: 15px !important;
+    }
+    
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .main-index>.fondo>.container{
+        height:450px;
+        background-size: 100% 450px;
+    }
+    .descripcion>p{
+        font-size:15px;
+        font-weight: bold;
+        width: 40%;
+        text-align: left !important;
+        margin:40px 200px 0 0;
+    }
+    .descripcion>img{
+        height:300px;
+        width: 150px;
+        border-radius: 30%;
+        margin: -300px 0 0 200px;
+    }
+    .sobre_mi>.descrip_mi{
+        font-size: 15px !important;
+    }
+    .cartas{
+        padding: 0;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    
+}
